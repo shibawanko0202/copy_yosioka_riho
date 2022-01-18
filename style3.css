@@ -1,0 +1,150 @@
+body{
+margin:0;
+display:flex;
+height:100%;
+}
+
+aside{
+background-color:orange;
+width:180px;
+min-width:180px;
+height:1600px;
+}
+
+aside nav{
+display:flex;
+flex-direction:column;
+}
+
+.ateam{
+margin:30px 30px;
+transition:all 1000ms 0s ease;
+}
+
+.ateam:hover{
+transform:rotate(1turn);
+}
+
+.active{
+transform:rotate(-0turn);
+}
+
+aside ul{
+text-align:center;
+padding:0;
+margin:0;
+color:white;
+list-style:none;
+}
+
+aside ul li{
+border-top:1px dotted white;
+border-bottom:1px dotted white;
+padding:8px 0px;
+transition:all 1000ms 0s ease;
+}
+
+aside ul li:hover{
+color:black;
+}
+
+.fb{
+margin-top:50px;
+padding:10px;
+}
+
+main{
+margin-left:30px;
+flex:2
+}
+
+main ul{
+display:flex;
+list-style:none;
+margin:0px;
+padding:0px;
+}
+
+main ul li{
+font-size:13px;
+padding:3px;
+margin:0px 6px;
+background-color:#DDD;
+transition:all 1000ms 0s ease;
+}
+
+main ul li:hover{
+background-color:black;
+color:orange;
+}
+
+h1{
+padding:5px 0px;
+font-size:25px;
+font-family:"MS Mincho";
+border-top:1px solid black;
+border-bottom:1px solid black;
+}
+
+.riho{
+width:250px;
+height:100%;
+padding:0px;
+}
+
+.yoko-total{
+width:150px;
+margin:0px;
+padding:0px;
+}
+
+.yoko{
+padding:0px;
+margin:0px 0px 20px 20px;
+width:100px;
+}
+
+.profiel{
+margin:0px;
+padding:0px;
+display:flex;
+}
+
+.prof{
+margin:0px;
+padding:0px;
+}
+
+.profiel dr{
+margin:0px;
+padding:0px;
+text-align:left;
+}
+
+.profiel dt{
+border-top:1px solid #DDD;
+}
+
+.profiel dd{
+font-size:13px;
+border-top:1px dotted #DDD;
+margin:0px;
+}
+
+#insta{
+color:black;
+text-decoration:none;
+}
+
+#insta:hover{
+color:orange;
+}
+
+h2{
+font-size:15px;
+background-color:#DDD;
+}
+
+.update dr dd{
+border-bottom:1px solid #DDD;
+}
